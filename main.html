@@ -10,8 +10,8 @@
     <header>
         <nav class="navbar">
             <div class="div_navbar">
-                <button> 
-                    <a href="#" id="nav">Accueil</a>
+                <button onclick="window.location.href = 'main.html';" style="cursor: pointer;"> 
+                    <a href="main.html" id="nav">Accueil</a>
                 </button>
                 <button> 
                     <a href="#" id="nav">Formations</a>
@@ -22,14 +22,14 @@
                 <button> 
                     <a href="#" id="nav">Liens externes</a>
                 </button>
-                <button> 
-                    <a href="#" id="nav">Me contacter</a>
+                <button onclick="window.location.href = 'contact.html';" style="cursor: pointer;"> 
+                    <a href="contact.html" id="nav">Me contacter</a>
                 </button>
             </div>
         </nav>
     </header>
     
-    <main>
+    <div>
         <!--Card recherche alternance-->
           <marquee direction="right" style="background-color: black;margin-top:10px;" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
             <div class="card" style="margin-top:15px;margin-bottom:15px;">
@@ -44,23 +44,7 @@
               </div></div></div>
           </marquee>
 
-          <!--FORMULAIRE DE CONTACT-->
-          <div class="card2" style="width:1200px;margin-left:auto;margin-right:auto;margin-top:15px;">
-            <p class="heading">Me contacter</p>
-            
-           <div class="input-div">
-              <input type="email" class="input" placeholder="Email" style="width:30rem">
-              </div>
-              <div class="input-div">
-              <input class="input" type="text" placeholder="Numéro de téléphone">
-              </div>
-              <div class="input-div">
-              <input class="input" type="text" placeholder="Message" style="width:150rem;">
-              </div>
-              <div class="button-div">
-                <button class="submit">Submit</button>
-              </div>
-          </div>
+        
           
     </main>
 </body>
