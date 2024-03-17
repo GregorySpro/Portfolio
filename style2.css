@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+
+
+/*NAVBAR*/
+.div_navbar{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+}
+#nav{
+    text-decoration: none;
+    color: white;
+    font-family: Luminari, fantasy;
+    font-size: xx-large;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.boutonNav {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+  .boutonNav::before {
+    margin-left: auto;
+}
+  
+.boutonNav::after, .boutonNav::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    transition: 0.5s;
+}
+  
+.boutonNav:hover::after, .boutonNav:hover::before {
+    width: 100%;
+}
+
+
+/*TITRE PRENOM*/
+.prénom h1{
+    color: white;
+    font-size: 150px;
+    margin-top: 0px;
+    font-family: Luminari, fantasy;
+    letter-spacing: 0.1em;
+}
+.div_prenom{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prénom{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+
+
+/*BOUTON SCROLL*/
+.btn {
+    width: 30px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    position: relative;
+}
+  
+.scroll_button {
+    width: 5px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    animation: scroll_4013 2s linear infinite;
+    transform: translateY(40%);
+}
+  
+.btn:after {
+    content: 'scroll';
+    position: absolute;
+    top: 140%;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;}
+  
+@keyframes scroll_4013 {
+    0% {
+      transform: translateY(40%);
+    }
+    50% {
+      transform: translateY(90%);
+    }
+};
+.scroll{
+    display: flex;
+    width: 100%;
+}
+.btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+
+
+
+
+/*PYRAMIDE QUI TOURNE*/
+
+.pyramid-loader {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: block;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg);
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: spin 4s linear infinite;
+}
+  
+@keyframes spin {
+    100% {
+      transform: rotateY(360deg);
+    }
+}
+  
+.pyramid-loader .wrapper .side {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform-origin: center top;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+  
+.pyramid-loader .wrapper .side1 {
+    transform: rotateZ(-30deg) rotateY(90deg);
+    background: conic-gradient( #FFFFFF, #000000, #000000, #FFFFFF);
+}
+  
+.pyramid-loader .wrapper .side2 {
+    transform: rotateZ(30deg) rotateY(90deg);
+    background: conic-gradient( #FFFFFF, #000000, #000000, #FFFFFF);
+}
+  
+.pyramid-loader .wrapper .side3 {
+    transform: rotateX(30deg);
+    background: conic-gradient(#FFFFFF, #000000, #000000, #FFFFFF);
+}
+  
+.pyramid-loader .wrapper .side4 {
+    transform: rotateX(-30deg);
+    background: conic-gradient( #FFFFFF, #000000, #000000, #FFFFFF);
+}
+  
+.pyramid-loader .wrapper .shadow {
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotateX(90deg) translateZ(-40px);
+    filter: blur(12px);
+}
+.loading_prism{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+}
