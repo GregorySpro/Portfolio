@@ -8,27 +8,31 @@
     <link rel="icon" href="PP_greg.png">
 </head>
 <body>
+    <header>
+        <!--NAVBAR-->
     <nav class="navbar">
         <div class="div_navbar">
-            <button class="boutonNav">
-                <a id="nav" href="#">Accueil</a>
+            <button class="btnNav" onclick="window.location.href = 'accueil.html';">
+                Accueil
             </button>
-            <button class="boutonNav">
-                <a id="nav" href="#">Formations</a>
+            <button class="btnNav">
+                Formations
             </button>
-            <button class="boutonNav">
-                <a id="nav" href="#">Projets</a>
+            <button class="btnNav">
+                Projets
             </button>
-            <button class="boutonNav">
-                <a id="nav" href="#">Liens Externes</a>
+            <button class="btnNav">
+                Liens Externes
             </button>
-            <button class="boutonNav">
-                <a id="nav" href="#">Me Contacter</a>
+            <button class="btnNav">
+                Me Contacter
             </button>
         </div>
     </nav>
+    </header>
 
-
+    <main>
+        <!--PRISME QUI TOURNE-->
     <div class="loading_prism">
         <div class="pyramid-loader">
             <div class="wrapper">
@@ -41,6 +45,8 @@
           </div>
     </div>
 
+
+    <!--TITRE AVE PRENOM-->
     <section class="prénom">
         <div class="div_prenom">
             <h1>Grégory SERGENT</h1>
@@ -48,10 +54,34 @@
     </section>
 
 
+    <!--SCROLL BUTTON-->
     <div class="scroll">
-        <button class="btn">
+        <button class="btn" onclick="window.location.href = '#presentation';">
             <div class="scroll_button"> </div>
         </button>
     </div>
+
+
+
+    <!--DESCRIPTION-->
+    <div class="card_presentation">
+        <div class="div_presentation">
+            <p id="presentation">
+                Bonjour, moi c'est Grégory, j'ai actuellement 18 ans, et je suis 
+                en formation en BTS CIEL (Cybersécurité, Informatique, Electronique) option Informatique et Réseaux (IR).
+                J'aime la programmation depuis que j'y ai gouté, et j'ai ma petite préférence pour tout 
+                ce qui touche au web. Au fur et à mesure de ma formation, j'ai acquis des connaissances
+                en C/C++, HTML, CSS, JavaScript, PHP, JQuerry, Python, Pack Office. Dans l'avancement de ma 
+                formation, j'obtiendrait de nouvelles capacitées et de nouvelles connaissances, qui me 
+                permettront de me différencier des autres. Après mon BTS, j'envisage de faire une liscence 
+                professionneles dans le domaine du développement web. 
+            </p>
+        </div>
+    </div>
+    </main>
+    
+    
+    
+    
 </body>
 </html>

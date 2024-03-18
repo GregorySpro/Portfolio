@@ -9,45 +9,71 @@ body{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .navbar{
     display: flex;
     width: 100%;
+    text-align: center;
 }
 #nav{
     text-decoration: none;
-    color: white;
     font-family: Luminari, fantasy;
     font-size: xx-large;
-    padding-left: 30px;
-    padding-right: 30px;
+    text-align: center;
 }
 
-.boutonNav {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.btnNav {
+    font-size: 17px;
+    background: transparent;
     border: none;
-    background: none;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-}
-  .boutonNav::before {
-    margin-left: auto;
-}
+    padding: 1em 1.5em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-size: x-large;
+  }
   
-.boutonNav::after, .boutonNav::before {
-    content: '';
-    width: 0%;
+  .btnNav::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
     height: 2px;
-    background: white;
-    display: block;
-    transition: 0.5s;
-}
+    width: 0;
+    background-color: #FFFFFF;
+    transition: 0.5s ease;
+  }
   
-.boutonNav:hover::after, .boutonNav:hover::before {
+  .btnNav:hover {
+    color: #000000;
+    transition-delay: 0.5s;
+  }
+  
+  .btnNav:hover::before {
     width: 100%;
-}
+  }
+  
+  .btnNav::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .btnNav:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
 
 
 /*TITRE PRENOM*/
@@ -58,15 +84,16 @@ body{
     font-family: Luminari, fantasy;
     letter-spacing: 0.1em;
     margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .div_prenom{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 .prénom{
     display: flex;
-    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -207,4 +234,33 @@ body{
     display: flex;
     width: 100%;
     margin-bottom: 0px;
+}
+
+
+/*PRESENTATION*/
+#presentation{
+    color:white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin-left:10%;
+    margin-right:10%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.div_presentation{
+    margin-left:auto;
+    display: flex;
+    margin-right:auto;
+}
+
+.card_presentation{
+    display: flex;
+    width: 100%;
+    margin-top: 300px;
+
 }
