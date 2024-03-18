@@ -82,10 +82,8 @@ html {
 /*TITRE PRENOM*/
 .prénom h1{
     color: white;
-    font-size: 150px;
+    font-size: 140px;
     margin-top: 0px;
-    font-family: Luminari, fantasy;
-    letter-spacing: 0.1em;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -263,7 +261,6 @@ html {
     display: flex;
     margin-right:auto;
 }
-
 .card_presentation{
     display: flex;
     width: 50%;
@@ -280,7 +277,7 @@ html {
 
 
 
-
+/*FLEURS LIENS EXTERNES*/
 .main {
     display: flex;
     flex-direction: column;
@@ -414,13 +411,13 @@ html {
   .liens{
     position: absolute;
     transition:translate(-50%,-50%);
-    left:60%;
+    left:65%;
     margin-top:150px
   }
   .TitreLiens{
     position: absolute;
     transition:translate(-50%,-50%);
-    left:59%;
+    left:63.5%;
     color:white;
     font-family: Luminari, fantasy;
     letter-spacing: 0.1em;
