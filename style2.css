@@ -31,7 +31,7 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
     position: relative;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
     cursor: pointer;
     font-size: x-large;
   }
@@ -44,12 +44,12 @@ body{
     height: 2px;
     width: 0;
     background-color: #FFFFFF;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
   }
   
   .btnNav:hover {
     color: #000000;
-    transition-delay: 0.5s;
+    transition-delay: 0.2s;
   }
   
   .btnNav:hover::before {
@@ -64,13 +64,13 @@ body{
     height: 0;
     width: 100%;
     background-color: #FFFFFF;
-    transition: 0.4s ease;
+    transition: 0.2s ease;
     z-index: -1;
   }
   
   .btnNav:hover::after {
     height: 100%;
-    transition-delay: 0.4s;
+    transition-delay: 0.2s;
     color: aliceblue;
   }
   
@@ -127,7 +127,7 @@ body{
 }
   
 .btn:after {
-    content: 'scroll';
+    content: '';
     position: absolute;
     top: 140%;
     color: whitesmoke;
@@ -250,7 +250,10 @@ body{
     border-style: solid;
     border-radius: 20px;
     padding: 15px;
-
+}
+#presentation img{
+    width: 200px;
+    margin-top: 30px;
 }
 .div_presentation{
     margin-left:auto;
