@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(27, 27, 27);
 }
 html {
     scroll-behavior: smooth;
@@ -283,21 +283,21 @@ html {
     flex-direction: column;
     gap: 0.5em;
     width: 100%;
-  }
+}
   
-  .up {
+.up {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
-  }
+}
   
-  .down {
+.down {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
-  }
+}
   
-  .card1 {
+.card1 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -307,15 +307,15 @@ html {
     box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.2s ease-in-out;
-  }
+}
   
-  .instagram {
+.instagram {
     margin-top: 1.5em;
     margin-left: 1.2em;
     fill: #000000;
-  }
+}
   
-  .card2 {
+.card2 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -325,15 +325,15 @@ html {
     box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.2s ease-in-out;
-  }
+}
   
-  .linkedin {
+.linkedin {
     margin-top: 1.5em;
     margin-left: -0.9em;
     fill: #000000;
-  }
+}
   
-  .card3 {
+.card3 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -343,14 +343,14 @@ html {
     box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.2s ease-in-out;
-  }
+}
   
-  .github {
+.github {
     margin-top: -0.6em;
     margin-left: 1.2em;
-  }
+}
   
-  .card4 {
+.card4 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -360,75 +360,75 @@ html {
     box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.2s ease-in-out;
-  }
+}
   
-  .discord {
+.discord {
     margin-top: -0.9em;
     margin-left: -1.2em;
     fill: #000000;
-  }
+}
   
-  .card1:hover {
+.card1:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: #000000;
-  }
+}
   
-  .card1:hover .instagram {
+.card1:hover .instagram {
     fill: white;
-  }
+}
   
-  .card2:hover {
+.card2:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: #000000;
-  }
+}
   
-  .card2:hover .linkedin {
+.card2:hover .linkedin {
     fill: white;
-  }
+}
   
-  .card3:hover {
+.card3:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: black;
-  }
+}
   
-  .card3:hover .github {
+.card3:hover .github {
     fill: white;
-  }
+}
   
-  .card4:hover {
+.card4:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: #000000;
-  }
+}
   
-  .card4:hover .discord {
+.card4:hover .discord {
     fill: white;
-  }
+}
   
-  .liens{
+.liens{
     position: absolute;
     transition:translate(-50%,-50%);
     left:65%;
     margin-top:150px
-  }
-  .TitreLiens{
+}
+.TitreLiens{
     position: absolute;
     transition:translate(-50%,-50%);
     left:63.5%;
     color:white;
     font-family: Luminari, fantasy;
     letter-spacing: 0.1em;
-  }
+}
 
 
 
 
-  /*PROJETS*/
-  /*Croissant2Lune*/
-  .card5 {
+/*PROJETS*/
+/*Croissant2Lune*/
+.card5 {
     background: rgba(0, 0, 0, 0.5);
     position: relative;
     max-width: 250px;
@@ -450,9 +450,9 @@ html {
     border-color: white;
     border-style: solid;
     border-width: 1px;
-  }
+}
   
-  .card5::after {
+.card5::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -490,13 +490,13 @@ html {
         32px 32px #0000;
     opacity: 0.5;
     transition: 0.3s ease;
-  }
+}
   
-  .card5:hover::after {
+.card5:hover::after {
     opacity: 0.25;
-  }
+}
   
-  .cardHeader {
+.cardHeader {
     text-transform: uppercase;
     position: relative;
     width: max-content;
@@ -505,8 +505,9 @@ html {
     background-color: white;
     padding-left:2px;
     padding-right:2px;
-  }
-  .cardHeader::after {
+    margin-bottom: 30px;
+}
+.cardHeader::after {
     content: "";
     width: calc(100% + 1rem);
     height: 2.5px;
@@ -516,41 +517,44 @@ html {
     left: 0;
     position: absolute;
     opacity: 0;
-  }
+}
   
-  .details {
+.details {
     z-index: 2;
     display: flex;
     flex-direction: column;
     gap: 5px;
     transform: translateY(95%);
     transition: all 0.5s ease;
-  }
+}
   
-  .button {
+.button {
     background-color: white;
     color: black;
     padding: 2.5px 5px;
     width: max-content;
     border-radius: 2.5px;
     cursor: pointer;
-  }
-  .card5:hover .details {
+}
+.card5:hover .details {
     transform: translateY(0%);
     transition-delay: 0.5s;
-  }
-  .card5:hover .cardHeader::after {
+}
+.card5:hover .cardHeader::after {
     transform: translateX(-1rem);
     transition: 0.5s ease;
     opacity: 1;
-  }
-  .card5:hover {
+}
+.card5:hover {
     transform: scale(1.1);
     border-radius: 15px;
-  }
+}
 
-  .cardText{
+.cardText{
     color:white;
   
-  }
+}
   
+.formations{
+    display:flex;
+}
