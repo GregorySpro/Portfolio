@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Container } from './UI/Container';
 
@@ -34,7 +33,7 @@ export function Hero() {
           </div>
           <div className="flex-1">
             <img 
-              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80"
+              src="https://i.postimg.cc/Pxx2MMSQ/image.png"
               alt="Développement"
               className="rounded-md shadow-lg w-full object-cover aspect-[4/3]"
             />

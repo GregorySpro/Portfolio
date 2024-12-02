@@ -16,12 +16,19 @@ export function Projects() {
                 key={index} 
                 className="bg-gray-50 rounded-lg overflow-hidden border border-gray-100 transition-all hover:shadow-md"
               >
-                <div className="aspect-video w-full overflow-hidden">
-                  <img 
-                    src={project.imageUrl} 
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                  />
+                <div className="relative group aspect-video w-full overflow-hidden">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img 
+                      src={project.imageUrl} 
+                      alt={project.title}
+                      className="w-full h-full object-cover cursor-pointer"
+                    />
+                  </a>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">

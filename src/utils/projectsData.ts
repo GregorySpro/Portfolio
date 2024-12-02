@@ -21,6 +21,6 @@ export const projects: Project[] = [
     imageUrl: "https://i.postimg.cc/FHnPkNnP/image.png",
     status: "En Ligne",
     githubUrl: "https://github.com/GregorySpro/LePetitCafe",
-    link: "https://le-petit-cafe.vercel.app/"
+    link: "https://gregproject1.netlify.app/"
   }
 ];
