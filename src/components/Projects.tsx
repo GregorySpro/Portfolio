@@ -1,7 +1,7 @@
 import { Container } from './UI/Container';
 import { SectionTitle } from './UI/SectionTitle';
 import { projects } from '../utils/projectsData';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 export function Projects() {
   return (
@@ -47,17 +47,29 @@ export function Projects() {
                     <span className="text-sm text-gray-500">
                       {project.status}
                     </span>
-                    {project.link && (
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
-                      >
-                        Voir le projet
-                        <ExternalLink className="w-4 h-4" />
-                      </a>
-                    )}
+                    <div className="flex items-center gap-4">
+                      {project.githubUrl && (
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
+                        >
+                          <Github className="w-4 h-4" />
+                        </a>
+                      )}
+                      {project.link && (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
+                        >
+                          Voir le projet
+                          <ExternalLink className="w-4 h-4" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
