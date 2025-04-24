@@ -9,8 +9,9 @@ export function Contact() {
         <SectionTitle>Me Contacter</SectionTitle>
         <div className="bg-gray-50 rounded-md p-8 max-w-2xl mx-auto border border-gray-100">
           <p className="text-gray-600 text-center mb-8 leading-relaxed">
-            Je suis à la recherche d'une alternance en développement mobile pour 2025-2026.
-            N'hésitez pas à me contacter pour échanger sur les opportunités.
+            Je suis à la recherche d'une alternance développeur full stack & devOps pour 2025-2026.
+            N'hésitez pas à me contacter pour échanger sur les opportunités. 
+            Je suis également disposé à transmettre mon CV dans le cas où vous ne l'avez pas déjà.
           </p>
           <div className="space-y-6">
             <div className="flex items-center gap-4">
