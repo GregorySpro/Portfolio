@@ -25,7 +25,7 @@ export const projects: Project[] = [
   },
   {
     title: "Smart Hotel",
-    description: "Création d'une application mobile de commande de boisson à l'aide de Qr Code connecté pour un hotel (Projet BTS 2025-2026)",
+    description: "Création d'une application mobile de commande de boissons à l'aide de Qr Code connecté pour un hotel en espagne. Réalisé entièrement en anglais. (Projet BTS 2025-2026)",
     icon: Layout,
     technologies: ["ReactNative","Node","ReactJS","Expo","Javascript","Docker",],
     imageUrl: "https://i.postimg.cc/Z57rw6Mq/image.png",
