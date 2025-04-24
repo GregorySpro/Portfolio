@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description: "Création d'une application mobile de commande de boisson à l'aide de Qr Code connecté pour un hotel (Projet BTS 2025-2026)",
     icon: Layout,
     technologies: ["ReactNative","Node","ReactJS","Expo","Javascript","Docker",],
-    imageUrl: "",
+    imageUrl: "https://i.postimg.cc/Z57rw6Mq/image.png",
     status: "En développement",
     githubUrl: "https://github.com/alexwauquier/smart-hotel-mobile-app",
     link: ""
