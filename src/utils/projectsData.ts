@@ -38,7 +38,7 @@ export const projects: Project[] = [
     description: "Création d'un site web de commande de repas en ligne pour une chaine de fastfood fictif. (Projet personnel)",
     icon: Layout,
     technologies: ["HTML","CSS","JavaScript", "APIREST"],
-    imageUrl: "https://postimg.cc/jw3dgt18",
+    imageUrl: "https://i.postimg.cc/jw3dgt18/image.png",
     status: "Maquette en cours de création",
     githubUrl: "",
     link: ""
