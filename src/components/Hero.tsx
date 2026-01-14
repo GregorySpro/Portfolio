@@ -8,12 +8,11 @@ export function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex-1">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Développeur <br />
-              <span className="text-gray-700">en recherche d'alternance</span>
+              Développeur Fullstack & DevOps<br />
+              <span className="text-gray-700">Alternant SNCF Réseau</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Étudiant en BTS CIEL passionné par le développement mobile et web.
-              À la recherche d'une alternance pour 2025-2026.
+              Étudiant en 3e année de bachelor "Développeur Fullstack & DevOps" à l'IPSSI
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
