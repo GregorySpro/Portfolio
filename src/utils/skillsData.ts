@@ -14,21 +14,21 @@ export const skills = [
   {
     category: "Langages de Programmation",
     icon: Code2,
-    technologies: ["C", "C++", "Python", "Java", "PHP", "Godot"]
+    technologies: ["C", "C++", "Python", "Java", "PHP", "Godot", "SQL", "Flutter", "NodeJS", "TypeScript"]
   },
   {
     category: "Back-end & API",
     icon: Server,
-    technologies: ["API Platform", "PHP", "Rest", "Postman", "Node"]
+    technologies: ["API Platform", "PHP", "Rest", "Postman", "Node", "Symfony", "Express", "NodeJS"]
   },
   {
     category: "Outils & Versionning",
     icon: GitBranch,
-    technologies: ["Git", "Pack Office", "Grafana","Merise"]
+    technologies: ["Git", "Pack Office", "Grafana","Merise", "UML", "Figma", "VS Code", "IntelliJ", "Eclipse", "Android Studio", "Postman"]
   },
   {
     category: "Base de données",
     icon: Database,
-    technologies: ["SQL","Docker"]
+    technologies: ["SQL","Docker", "MySQL", "MongoDB", "PostgreSQL", "SQLite", "Supabase"]
   }
 ];

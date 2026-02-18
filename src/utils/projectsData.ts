@@ -43,4 +43,14 @@ export const projects: Project[] = [
     githubUrl: "",
     link: ""
   },
+  {
+    title: "Gestion de stock",
+    description: "Création d'une application interne de gestion de stock pour SNCF Réseau (Alternance 2025-2026)",
+    icon: Layout,
+    technologies: ["ReactJS", "Expresse", "Supabase", "NodeJS", "TypeScript"],
+    imageUrl: "https://i.postimg.cc/P5YDmTQD/sncf-logo.png",
+    status: "En développement",
+    githubUrl: "",
+    link: ""
+  }
 ];
