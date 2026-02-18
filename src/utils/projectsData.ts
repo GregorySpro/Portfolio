@@ -29,18 +29,8 @@ export const projects: Project[] = [
     icon: Layout,
     technologies: ["ReactNative","Node","ReactJS","Expo","Javascript","Docker"],
     imageUrl: "https://i.postimg.cc/Z57rw6Mq/image.png",
-    status: "En développement",
+    status: "Terminé - Note à l'examen : 19/20",
     githubUrl: "https://github.com/alexwauquier/smart-hotel-mobile-app",
-    link: ""
-  },
-  {
-    title: "FastFeast",
-    description: "Création d'un site web de commande de repas en ligne pour une chaine de fastfood fictif. (Projet personnel)",
-    icon: Layout,
-    technologies: ["HTML","CSS","JavaScript", "APIREST"],
-    imageUrl: "https://i.postimg.cc/9R10BnHh/image.png",
-    status: "Maquette en cours de création",
-    githubUrl: "",
     link: ""
   },
   {
