@@ -9,7 +9,8 @@ export function Contact() {
         <SectionTitle>Me Contacter</SectionTitle>
         <div className="bg-gray-50 rounded-md p-8 max-w-2xl mx-auto border border-gray-100">
           <p className="text-gray-600 text-center mb-8 leading-relaxed">
-             Une offre d'embauche ? Une proposition de contract ? Une mission ? Un renseignement ? Contactez-moi ! </br>
+            Une offre d'embauche ? Une proposition de contract ? Une mission ? Un renseignement ? Contactez-moi !
+            <br />
             Une réponse sera donnée dans les 24h qui suivent la réception du mail !
           </p>
           <div className="space-y-6">
