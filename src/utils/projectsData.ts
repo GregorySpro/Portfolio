@@ -42,5 +42,15 @@ export const projects: Project[] = [
     status: "En développement",
     githubUrl: "",
     link: ""
+  },
+  {
+    title: "SecureScan",
+    description: "Création d'un site de scan de repo GitHub pour détecter les vulnérabilités de sécurité OWASP, et les corriger automatiquement à l'aide de pull request, corrigé par IA. (Projet Hackaton IPSSI 2026)",
+    icon: Layout,
+    technologies: ["NextJS","TypeScript","GitHub API", "Gemini Flash 2.5", "Tailwind CSS"],
+    imageUrl: "https://i.postimg.cc/Y9DhTdwB/radar-icon.png",
+    status: "En déploiement",
+    githubUrl: "https://github.com/Nowalityy/SecureScan",
+    link: ""
   }
 ];
