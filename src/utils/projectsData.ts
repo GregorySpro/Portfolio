@@ -49,8 +49,8 @@ export const projects: Project[] = [
     icon: Layout,
     technologies: ["NextJS","TypeScript","GitHub API", "Gemini Flash 2.5", "Tailwind CSS"],
     imageUrl: "https://i.postimg.cc/Y9DhTdwB/radar-icon.png",
-    status: "En déploiement",
+    status: "En Ligne",
     githubUrl: "https://github.com/Nowalityy/SecureScan",
-    link: ""
+    link: "https://securescangregory.netlify.app/"
   }
 ];
