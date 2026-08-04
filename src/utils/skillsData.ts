@@ -4,12 +4,12 @@ export const skills = [
   {
     category: "Développement Mobile",
     icon: Smartphone,
-    technologies: ["React Native", "ReactJS", "Expo"]
+    technologies: ["React Native", "ReactJS", "Expo", "Flutter"]
   },
   {
     category: "Développement Web",
     icon: Layout,
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Bootstrap"]
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "NextJS"]
   },
   {
     category: "Langages de Programmation",

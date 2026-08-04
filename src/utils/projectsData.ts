@@ -52,5 +52,25 @@ export const projects: Project[] = [
     status: "En Ligne",
     githubUrl: "https://github.com/Nowalityy/SecureScan",
     link: "https://securescangregory.netlify.app/"
+  },
+  {
+    title: "Socrate",
+    description: "Socrate est un site d'apprentissage basé sur une méthode qu'à inventé Socrate. On donne un document et un contexte, l'ia génère une question. Si notre réposne n'est pas satisfaisante, l'ia pousse la question plus loin, toujours dans le but d'enrichir nos connaissance sur le sujet donné.",
+    icon: Layout,
+    technologies: ["NextJS","React","TypeScript","Tailwind CSS","Groq SDK","PDF Parse","Mammoth","ESLint","PostCSS","Node.js"],
+    imageUrl: "https://i.postimg.cc/4xPfjVk5/image.png",
+    status: "En Ligne",
+    githubUrl: "https://github.com/GregorySPro/socrate",
+    link: "https://socrate.greg-studio.dev/"
+  },
+  {
+    title: "Greg News",
+    description: "Greg News est un blog actif contennt les dernières actualités IA/DEV/TECH/WEB ainsi que les veilles technologiques, tenu à jour de manière hebdomadaire.",
+    icon: Layout,
+    technologies: ["NextJS","React","TypeScript","Tailwind CSS","Supabase","PostgreSQL","Lucide React","Next Themes","ESLint","PostCSS"],
+    imageUrl: "https://i.postimg.cc/13Q0vhs6/image.png",
+    status: "En Ligne",
+    githubUrl: "",
+    link: "https://news.greg-studio.dev/"
   }
 ];
