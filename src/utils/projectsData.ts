@@ -44,16 +44,6 @@ export const projects: Project[] = [
     link: ""
   },
   {
-    title: "Smart Hotel",
-    description: "Création d'une application mobile de commande de boissons à l'aide de Qr Code connecté pour un hotel en espagne. Réalisé entièrement en anglais. (Projet BTS 2025-2026)",
-    icon: Layout,
-    technologies: ["ReactNative","Node","ReactJS","Expo","Javascript","Docker"],
-    imageUrl: "https://i.postimg.cc/Z57rw6Mq/image.png",
-    status: "Terminé - Note à l'examen : 19/20",
-    githubUrl: "https://github.com/alexwauquier/smart-hotel-mobile-app",
-    link: ""
-  },
-  {
     title: "SecureScan",
     description: "Création d'un site de scan de repo GitHub pour détecter les vulnérabilités de sécurité OWASP, et les corriger automatiquement à l'aide de pull request, corrigé par IA. (Projet Hackaton IPSSI 2026)",
     icon: Layout,
@@ -62,6 +52,16 @@ export const projects: Project[] = [
     status: "En Ligne",
     githubUrl: "https://github.com/Nowalityy/SecureScan",
     link: "https://securescangregory.netlify.app/"
+  },
+  {
+    title: "Smart Hotel",
+    description: "Création d'une application mobile de commande de boissons à l'aide de Qr Code connecté pour un hotel en espagne. Réalisé entièrement en anglais. (Projet BTS 2025-2026)",
+    icon: Layout,
+    technologies: ["ReactNative","Node","ReactJS","Expo","Javascript","Docker"],
+    imageUrl: "https://i.postimg.cc/Z57rw6Mq/image.png",
+    status: "Terminé - Note à l'examen : 19/20",
+    githubUrl: "https://github.com/alexwauquier/smart-hotel-mobile-app",
+    link: ""
   },
   {
     title: "Le Petit Café",
