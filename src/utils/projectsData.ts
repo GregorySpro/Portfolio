@@ -1,4 +1,4 @@
-import { Layout } from 'lucide-react';
+import { Layout, Mail, Globe, FileCode } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 
 export interface Project {
@@ -72,6 +72,35 @@ export const projects: Project[] = [
     status: "En Ligne",
     githubUrl: "https://github.com/GregorySpro/LePetitCafe",
     link: "https://gregproject1.netlify.app/"
+  },
+  {
+    title: "Email Verify API",
+    description: "API REST open source de vérification d'email : syntaxe, enregistrements MX DNS et détection des adresses jetables. Aucune clé requise, auto-hébergeable.",
+    icon: Mail,
+    technologies: ["Python", "FastAPI", "dnspython", "Uvicorn", "Render"],
+    imageUrl: "https://placehold.co/800x500/1e293b/6366f1?text=Email+Verify+API&font=montserrat",
+    status: "En Ligne",
+    githubUrl: "https://github.com/GregorySpro/email-verify-api",
+    link: "https://email-verify-api-8jmb.onrender.com/docs"
+  },
+  {
+    title: "IP Geolocation API",
+    description: "API REST open source de géolocalisation d'adresses IP. Retourne pays, ville, fuseau horaire et coordonnées via la base MaxMind GeoLite2, sans appel externe.",
+    icon: Globe,
+    technologies: ["Python", "FastAPI", "GeoIP2", "MaxMind GeoLite2", "Render"],
+    imageUrl: "https://placehold.co/800x500/1e293b/10b981?text=IP+Geolocation+API&font=montserrat",
+    status: "En Ligne",
+    githubUrl: "https://github.com/GregorySpro/ip-geolocation-api",
+    link: "https://ip-geolocation-api-31u6.onrender.com/docs"
+  },
+  {
+    title: "File Conversion API",
+    description: "API REST open source de conversion de fichiers : formats image (PNG, JPG, WebP…), redimensionnement, compression, extraction de texte PDF et métadonnées. Traitement 100% en mémoire.",
+    icon: FileCode,
+    technologies: ["Python", "FastAPI", "Pillow", "pypdf", "pdf2image", "Render"],
+    imageUrl: "https://placehold.co/800x500/1e293b/f59e0b?text=File+Conversion+API&font=montserrat",
+    status: "En Ligne",
+    githubUrl: "https://github.com/GregorySpro/file-conversion-api",
+    link: "https://file-conversion-api-xnhs.onrender.com/docs"
   }
-  
 ];
