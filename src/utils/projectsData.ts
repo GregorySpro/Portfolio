@@ -81,7 +81,7 @@ export const projects: Project[] = [
     imageUrl: "https://placehold.co/800x500/1e293b/6366f1?text=Email+Verify+API&font=montserrat",
     status: "En Ligne",
     githubUrl: "https://github.com/GregorySpro/email-verify-api",
-    link: "https://email-verify-api-8jmb.onrender.com/docs"
+    link: "https://email-verify-api.greg-studio.dev/"
   },
   {
     title: "IP Geolocation API",
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     imageUrl: "https://placehold.co/800x500/1e293b/10b981?text=IP+Geolocation+API&font=montserrat",
     status: "En Ligne",
     githubUrl: "https://github.com/GregorySpro/ip-geolocation-api",
-    link: "https://ip-geolocation-api-31u6.onrender.com/docs"
+    link: "https://ip-geolocation-api.greg-studio.dev/"
   },
   {
     title: "File Conversion API",
@@ -101,6 +101,6 @@ export const projects: Project[] = [
     imageUrl: "https://placehold.co/800x500/1e293b/f59e0b?text=File+Conversion+API&font=montserrat",
     status: "En Ligne",
     githubUrl: "https://github.com/GregorySpro/file-conversion-api",
-    link: "https://file-conversion-api-xnhs.onrender.com/docs"
+    link: "https://file-conversion-api.greg-studio.dev/"
   }
 ];
